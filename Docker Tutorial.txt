@@ -1,0 +1,20 @@
+What is Docker ?
+Docker solves one of the biggest problem is "It Runs on My machine" this problem is basically occurs because or maybe of One or more file is missing ,Software version mismatch, environment variables may be different.
+
+Virtual Machines vs Docker ?
+
+
+Architecture of Docker 
+The Docker is based on the Client-server (Docker Engine)arch. and it communicate through the REST API.
+
+Development Workflow of Docker :
+Image File :
+	A runtime Environment
+	Contains Application files
+	Third-Party Libraries
+	Contains Environment Variabless
+
+	Usage : Once we create a image file and then we push into a Docker hub (It like we are pushing our local git repo to the GitHub repo) and then we can pull it from the any machine to run the application.
+
+Container :
+	Container is nothing but the running process of the Image file.
